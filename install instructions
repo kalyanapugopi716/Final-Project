@@ -1,0 +1,24 @@
+		
+	Ecommerce webiste Green Products using php codeigniter framework
+
+		*start your xampp server 
+		*db name - online_greenproducts
+		*folder name - greenproducts
+
+		login url - http://localhost/greenproducts/
+		webiste url - http://localhost/greenproducts/website_home
+
+		admin login - 
+		username: admin
+		email_id : admin@gmail.com
+		password : user@1234
+
+		seller login - 
+		username: seller
+		email_id : seller@gmail.com
+		password : user@1234
+
+		customer login - 
+		username: customer
+		email_id : customer@gmail.com
+		password : user@1234
