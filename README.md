@@ -5,19 +5,19 @@ My idea with this website is to develop an e-commerce website that can be easily
 My project is a simple ecommerce Natural Green Products selling website which allows users to login, signup and also it allows user to add products to the cart and checkout. Users can select to display products in a single category. Users can click on any product to get more information including pricing, reviews and rating. Users can select items and add them to their shopping cart. User can check out product. User can click forgot password and can create new one if in case he/she forgot the password, by giving and verifying user email id associated to account. User can login to account by giving user mail id and password.
 ### Products Features
 Feature	Coded?	Description
-Add a Product	✔	Ability of Add a Product on the System
-List Products	✔	Ability of List Products
-Edit a Product	✔	Ability of Edit a Product
-Delete a Product	✔	Ability of Delete a Product
+***Add a Product	✔	Ability of Add a Product on the System
+***List Products	✔	Ability of List Products
+***Edit a Product	✔	Ability of Edit a Product
+***Delete a Product	✔	Ability of Delete a Product
 
 ### Purchase Features
 Feature	Coded?	Description
-Create a Cart	✔	Ability of Create a new Cart
-See Cart	✔	Ability to see the Cart and it items
-Remove a Cart	✔	Ability of Remove a Cart
-Add Item	✔	Ability of add a new Item on the Cart
-Remove an Item	✔	Ability of Remove an Item from the Cart
-Checkout	✔	Ability to Checkout
+***Create a Cart	✔	Ability of Create a new Cart
+***See Cart		✔	Ability to see the Cart and it items
+***Remove a Cart	✔	Ability of Remove a Cart
+***Add Item		✔	Ability of add a new Item on the Cart
+***Remove an Item	✔	Ability of Remove an Item from the Cart
+***Checkout		✔	Ability to Checkout
 
 ### Entities
 
@@ -51,10 +51,10 @@ Checkout	✔	Ability to Checkout
 
 •	MySQL
 ### Bugs
-login issue
-easy to hack
-database 
-less products
+***login issue
+***easy to hack
+***database 
+***less products
 		
 ### Ecommerce website Green Products using php 
 
