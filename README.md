@@ -22,7 +22,8 @@ Feature	Coded?	Description
  ***
  See Cart		✔	Ability to see the Cart and it items
  ***
-Remove a Cart	✔	Ability of Remove a Cart***
+Remove a Cart	✔	Ability of Remove a Cart
+***
 Add Item		✔	Ability of add a new Item on the Cart
 ***
 Remove an Item	✔	Ability of Remove an Item from the Cart
