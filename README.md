@@ -50,6 +50,11 @@ Checkout	✔	Ability to Checkout
 ### Data Base
 
 •	MySQL
+### Bugs
+login issue
+easy to hack
+database 
+less products
 		
 ### Ecommerce website Green Products using php 
 
@@ -77,3 +82,13 @@ Checkout	✔	Ability to Checkout
 		password: user@1234
 
 
+
+### IMAGES
+
+![1](https://user-images.githubusercontent.com/102165229/168952293-0ead2fd7-a279-48a3-961e-6081f06f5935.jpeg)
+![2](https://user-images.githubusercontent.com/102165229/168952308-39c30459-3d11-41d6-807d-532ca0a41b87.jpeg)
+![3](https://user-images.githubusercontent.com/102165229/168952312-9a942951-ca23-4d0e-ba28-191424d7334f.jpeg)
+![4](https://user-images.githubusercontent.com/102165229/168952326-c1b7f873-61fa-4aa3-9302-1ba284f22eb6.jpeg)
+![5](https://user-images.githubusercontent.com/102165229/168952333-efd21196-e0bf-46cd-bf8d-15f2f1516c9e.jpeg)
+### ER DIAGRAM
+![Screenshot (30)](https://user-images.githubusercontent.com/102165229/168952767-2a948d51-a439-442e-b11a-75a84dc8c7c8.png)
