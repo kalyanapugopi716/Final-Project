@@ -50,7 +50,7 @@ Checkout		✔	Ability to Checkout
 ***
 	[CSS] - A style sheet language used for describing the look and formatting of a document written in a markup language.
 ***
-	[Java Script] - A programming language of the Web.
+	[Java Script] - JavaScript is a scripting or programming language that allows you to implement complex features on web pages.
 ***
 
 ### CSS Frameworks
