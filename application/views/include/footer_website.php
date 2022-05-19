@@ -49,26 +49,15 @@
                         <!-- //latest posts -->
                         <!-- locations -->
                         <div class="col-lg-2 col-sm-6 footer-v2grid my-lg-0 my-5">
-                            <h4>office locations</h4>
+                            <h4>locations</h4>
                             <ul>
                                 <li>
-                                    <a href="#">new jersey</a>
+                                    <a href="#">new york</a>
                                 </li>
                                 <li>
-                                    <a href="#">texas</a>
+                                    <a href="#">india</a>
                                 </li>
-                                <li>
-                                    <a href="#">michigan</a>
-                                </li>
-                                <li>
-                                    <a href="#">cannada</a>
-                                </li>
-                                <li>
-                                    <a href="#">brazil</a>
-                                </li>
-                                <li>
-                                    <a href="#">california</a>
-                                </li>
+                                
                             </ul>
                         </div>
                         <!-- //locations -->
