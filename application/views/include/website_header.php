@@ -4,12 +4,7 @@
         <div class="container">
             <!-- top nav -->
             <nav class="top_nav d-flex pt-3 pb-1">
-                <!-- logo -->
-                <h1>
-                    <a class="navbar-brand" href="<?php echo base_url()."website_home";?>">OS
-                    </a>
-                </h1>
-                <!-- //logo -->
+                
                 <div class="w3ls_right_nav ml-auto d-flex">
                     <!-- search form -->
                     <form class="nav-search form-inline my-0 form-control" action="<?php echo base_url()."product_search"; ?>" method="post">
@@ -17,7 +12,7 @@
                         <input type="text" name="search_keywords" placeholder="Search your Product Here" class="form-control search_boxown" required="true" id="search_input" autocomplete="off">
                         </div>
                         <select class="form-control input-lg" name="search_options">
-                            <option value="all">Search our store</option>
+                            <option value="all">Search here</option>
                             <?php 
                             foreach ($get_data as $key => $value) { 
                                 $get_data1 = get_data('tbl_sub_category','cat_id',$value->cat_id);
