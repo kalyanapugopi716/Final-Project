@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-    <title>Online Shopping Website</title>
+    <title>GREEN PRODUCTS Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8" />
     <meta name="keywords" content="Fashion Hub Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -206,10 +206,10 @@ RIGHT SIDEBAR TOGGLE SECTION
 
                     <div class="container">
                         <h3 class="agile_btxt">
-                            <span>O</span>nline
-                            <span>S</span>hopping
+                            <span>G</span>reen
+                            <span>P</span>roducts
                         </h3>
-                        <h4 class="w3_bbot">SHOP EXCLUSIVE ITEM for you</h4>
+                        <h4 class="w3_bbot">SHOP EXCLUSIVE ITEMS</h4>
                         <div class="slider-info mt-sm-5">
                             <h4 class="bn_right">
                                <?php foreach ($get_cat_name_sep as $key => $value2) { ?>
@@ -254,11 +254,11 @@ RIGHT SIDEBAR TOGGLE SECTION
         <div class="no-gutters agileits-services-row row">
             <div class="col-lg-3 col-sm-6 agileits-services-grids p-sm-5 p-3">
                 <span class="fas fa-sync-alt p-4"></span>
-                <h4 class="mt-2 mb-3">30 days replacement</h4>
+                <h4 class="mt-2 mb-3">10 days replacement</h4>
             </div>
             <div class="col-lg-3 col-sm-6 agileits-services-grids p-sm-5 p-3">
                 <span class="fas fa-gift p-4"></span>
-                <h4 class="mt-2 mb-3">Gift Card</h4>
+                <h4 class="mt-2 mb-3">Gift Cards</h4>
             </div>
 
             <div class="col-lg-3 col-sm-6 agileits-services-grids p-sm-5 p-3">
@@ -289,7 +289,7 @@ RIGHT SIDEBAR TOGGLE SECTION
     <!-- //about -->
     <section class="tabs_pro py-md-5 pt-sm-3 pb-5">
         <h5 class="head_agileinfo text-center text-capitalize pb-5">
-            <span>S</span>mart <span>P</span>roducts</h5>
+        <span>N</span>atural <span>P</span>roducts</h5>
         <div class="tabs tabs-style-line pt-md-5">
             <nav class="container">
                 <ul id="clothing-nav" class="nav nav-tabs tabs-style-line" role="tablist">
@@ -343,7 +343,7 @@ RIGHT SIDEBAR TOGGLE SECTION
                                 <div class="men-thumb-item">
                                     <img src="<?php echo base_url()."uploads/".$value1->pro_img1;?>" alt="img" class="card-img-top img_own">
                                     <?php if(!empty($ofs)){ ?>
-                                    <span class="px-2 position-absolute">out of stock</span>
+                                        <span class="px-2 position-absolute">out of stock</span>
                                     <?php }else{ ?>
                                     <div class="men-cart-pro">
                                         <div class="inner-men-cart-pro">
@@ -413,149 +413,7 @@ RIGHT SIDEBAR TOGGLE SECTION
     <!-- product tabs -->
     
     <!-- //product tabs -->
-    <!-- insta posts -->
-    <section class="py-lg-5">
-        <!-- insta posts -->
-        <h5 class="head_agileinfo text-center text-capitalize pb-5">
-            <span>s</span>hop on insta</h5>
-        <div class="gallery row no-gutters pt-lg-5">
-            <div class="col-lg-2 col-sm-4 col-6 gallery-item">
-                <img src="<?php echo base_url()?>assets/website_assets/images/i1.jpg" class="img-fluid" alt="" />
-                <div class="gallery-item-info">
-                    <ul>
-                        <li class="gallery-item-likes">
-                            <i class="fas fa-heart"></i> 56</li>
-                        <li class="gallery-item-comments">
-                            <i class="fas fa-comment"></i> 2</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-2 col-sm-4 col-6 gallery-item">
-                <img src="<?php echo base_url()?>assets/website_assets/images/i2.jpg" class="img-fluid" alt="" />
-                <div class="gallery-item-info">
-                    <ul>
-                        <li class="gallery-item-likes">
-                            <i class="fas fa-heart"></i> 89</li>
-                        <li class="gallery-item-comments">
-                            <i class="fas fa-comment"></i> 5</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-2 col-sm-4 col-6 gallery-item">
-                <img src="<?php echo base_url()?>assets/website_assets/images/i3.jpg" class="img-fluid" alt="" />
-                <div class="gallery-item-info">
-                    <ul>
-                        <li class="gallery-item-likes">
-                            <i class="fas fa-heart"></i> 42</li>
-                        <li class="gallery-item-comments">
-                            <i class="fas fa-comment"></i> 1</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-2 col-sm-4 col-6 gallery-item">
-                <img src="<?php echo base_url()?>assets/website_assets/images/i4.jpg" class="img-fluid" alt="" />
-                <div class="gallery-item-info">
-                    <ul>
-                        <li class="gallery-item-likes">
-                            <i class="fas fa-heart"></i> 38</li>
-                        <li class="gallery-item-comments">
-                            <i class="fas fa-comment"></i> 0</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-2 col-sm-4 col-6 gallery-item">
-                <img src="<?php echo base_url()?>assets/website_assets/images/i5.jpg" class="img-fluid" alt="" />
-                <div class="gallery-item-info">
-                    <ul>
-                        <li class="gallery-item-likes">
-                            <i class="fas fa-heart"></i> 38</li>
-                        <li class="gallery-item-comments">
-                            <i class="fas fa-comment"></i> 0</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-2 col-sm-4 col-6 gallery-item">
-                <img src="<?php echo base_url()?>assets/website_assets/images/i6.jpg" class="img-fluid" alt="" />
-                <div class="gallery-item-info">
-                    <ul>
-                        <li class="gallery-item-likes">
-                            <i class="fas fa-heart"></i> 38</li>
-                        <li class="gallery-item-comments">
-                            <i class="fas fa-comment"></i> 0</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="gallery row no-gutters pb-5">
-            <div class="col-lg-2 col-sm-4 col-6 gallery-item">
-                <img src="<?php echo base_url()?>assets/website_assets/images/i7.jpg" class="img-fluid" alt="" />
-                <div class="gallery-item-info">
-                    <ul>
-                        <li class="gallery-item-likes">
-                            <i class="fas fa-heart"></i> 56</li>
-                        <li class="gallery-item-comments">
-                            <i class="fas fa-comment"></i> 2</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-2 col-sm-4 col-6 gallery-item">
-                <img src="<?php echo base_url()?>assets/website_assets/images/i8.jpg" class="img-fluid" alt="" />
-                <div class="gallery-item-info">
-                    <ul>
-                        <li class="gallery-item-likes">
-                            <i class="fas fa-heart"></i> 89</li>
-                        <li class="gallery-item-comments">
-                            <i class="fas fa-comment"></i> 5</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-2 col-sm-4 col-6 gallery-item">
-                <img src="<?php echo base_url()?>assets/website_assets/images/i9.jpg" class="img-fluid" alt="" />
-                <div class="gallery-item-info">
-                    <ul>
-                        <li class="gallery-item-likes">
-                            <i class="fas fa-heart"></i> 42</li>
-                        <li class="gallery-item-comments">
-                            <i class="fas fa-comment"></i> 1</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-2 col-sm-4 col-6 gallery-item">
-                <img src="<?php echo base_url()?>assets/website_assets/images/i10.jpg" class="img-fluid" alt="" />
-                <div class="gallery-item-info">
-                    <ul>
-                        <li class="gallery-item-likes">
-                            <i class="fas fa-heart"></i> 38</li>
-                        <li class="gallery-item-comments">
-                            <i class="fas fa-comment"></i> 0</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-2 col-sm-4 col-6 gallery-item">
-                <img src="<?php echo base_url()?>assets/website_assets/images/i11.jpg" class="img-fluid" alt="" />
-                <div class="gallery-item-info">
-                    <ul>
-                        <li class="gallery-item-likes">
-                            <i class="fas fa-heart"></i> 38</li>
-                        <li class="gallery-item-comments">
-                            <i class="fas fa-comment"></i> 0</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-2 col-sm-4 col-6 gallery-item">
-                <img src="<?php echo base_url()?>assets/website_assets/images/i12.jpg" class="img-fluid" alt="" />
-                <div class="gallery-item-info">
-                    <ul>
-                        <li class="gallery-item-likes">
-                            <i class="fas fa-heart"></i> 38</li>
-                        <li class="gallery-item-comments">
-                            <i class="fas fa-comment"></i> 0</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- //insta posts -->
+    
     <!-- footer -->
     <?php $this->load->view('include/footer_website'); ?>
     
