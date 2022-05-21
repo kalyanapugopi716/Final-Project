@@ -13,16 +13,11 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
   <!-- CSS Files -->
   <link href="<?php echo base_url()?>assets/admin_assets/css/material-dashboard.min.css?v=2.1.2" rel="stylesheet" />
-  <!-- CSS Just for demo purpose, don't include it in your project -->
   <link href="<?php echo base_url()?>assets/admin_assets/demo/demo.css" rel="stylesheet" />
 </head>
 
 <body class="off-canvas-sidebar">
-  <!-- Extra details for Live View on GitHub Pages -->
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NKDMSK6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-  <!-- Navbar -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NKDMSK6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> 
   <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top text-white">
     <div class="container">
       <div class="navbar-wrapper">
@@ -44,13 +39,13 @@
           </li>
           <li class="nav-item">
             <a href="<?php echo base_url('login')?>" class="nav-link">
-              <i class="material-icons">fingerprint</i>
+              <i class="material-icons">login</i>
               Login
             </a>
           </li>
           <li class="nav-item active">
             <a href="#" class="nav-link">
-              <i class="material-icons">fingerprint</i>
+              <i class="material-icons">registration</i>
               Registration
             </a>
           </li>
@@ -58,36 +53,20 @@
       </div>
     </div>
   </nav>
-  <!-- End Navbar -->
   <div class="wrapper wrapper-full-page">
-    <div class="page-header login-page header-filter" filter-color="black" style="background-image: url('<?php echo base_url()?>assets/admin_assets/img/login_2.jpg'); background-size: cover; background-position: top center;">
-      <!--   you can change the color of the filter page using: data-color="blue | purple | green | orange | red | rose " -->
+    <div class="page-header login-page header-filter" filter-color="black" style="background-image: url('<?php echo base_url()?>assets/admin_assets/img/login.jpg'); background-size: cover; background-position: top center;">
       <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-6 col-sm-8 ml-auto mr-auto">
             <form class="form" method="post" action="<?php echo base_url()?>register_validate" id="LoginValidation"  enctype="multipart/form-data">
               <div class="card card-login card-hidden">
-                <div class="card-header card-header-rose text-center">
-                  <h4 class="card-title">Registration</h4>
-                  <div class="social-line">
-                    <a href="#pablo" class="btn btn-just-icon btn-link btn-white">
-                      <i class="fa fa-facebook-square"></i>
-                    </a>
-                    <a href="#pablo" class="btn btn-just-icon btn-link btn-white">
-                      <i class="fa fa-twitter"></i>
-                    </a>
-                    <a href="#pablo" class="btn btn-just-icon btn-link btn-white">
-                      <i class="fa fa-google-plus"></i>
-                    </a>
-                  </div>
+                <div class="card-header card-header-blue text-center">
                 </div>
                 <div class="card-body ">
-                  <p class="invalid_msg text-center text-danger font-weight-bold"><?php echo $this->session->tempdata('success'); $this->session->unset_tempdata('success') ?></p>
-                  <!-- <p class="card-description text-center">Enjoy Your Shopping</p> -->
+                  <p class="invalid_msg text-center  font-weight-bold"><?php echo $this->session->tempdata('success'); $this->session->unset_tempdata('success') ?></p>
+                 
                   <div class="form-group">
-                          <label class="btn btn-round btn-rose btn-file" for="photo">Photo<div class="ripple-container"></div></label>
-                           <input type="file" name="photo" class="btn btn-round btn-rose btn-file" id="photo">
-                           <center><img class="img blah" src="<?php echo base_url()?>assets/admin_assets/img/faces/avatar.jpg"></center>
+                         
                         </div>
                   <span class="bmd-form-group">
                     <div class="input-group">
@@ -146,7 +125,7 @@
                   </span>
                 </div>
                 <div class="card-footer justify-content-center">
-                  <input type="submit" name="login_validate" value="Register" class="btn btn-rose">
+                  <input type="submit" name="login_validate" value="Register" class="btn ">
                 </div>
               </div>
             </form>
@@ -161,17 +140,17 @@
   <script src="<?php echo base_url()?>assets/admin_assets/js/core/popper.min.js"></script>
   <script src="<?php echo base_url()?>assets/admin_assets/js/core/bootstrap-material-design.min.js"></script>
   <script src="<?php echo base_url()?>assets/admin_assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
-  <!--  Google Maps Plugin    -->
+
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2Yno10-YTnLjjn_Vtk0V8cdcY5lC4plU"></script>
-  <!-- Place this tag in your head or just before your close body tag. -->
+ 
   <script async defer src="https://buttons.github.io/buttons.js"></script>
-  <!-- Chartist JS -->
+ 
   <script src="<?php echo base_url()?>assets/admin_assets/js/plugins/chartist.min.js"></script>
-  <!--  Notifications Plugin    -->
+ 
   <script src="<?php echo base_url()?>assets/admin_assets/js/plugins/bootstrap-notify.js"></script>
-  <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
+  
   <script src="<?php echo base_url()?>assets/admin_assets/js/material-dashboard.min.js?v=2.1.2" type="text/javascript"></script>
-  <!-- Material Dashboard DEMO methods, don't include it in your project! -->
+ 
   <script src="<?php echo base_url()?>assets/admin_assets/demo/demo.js"></script>
 
   <!--  -->
@@ -201,7 +180,7 @@
         }
 
         $('.fixed-plugin a').click(function(event) {
-          // Alex if we click on switch, stop propagation of the event, so the dropdown will not be hide, otherwise we set the  section active
+          
           if ($(this).hasClass('switch-trigger')) {
             if (event.stopPropagation) {
               event.stopPropagation();
@@ -335,12 +314,12 @@
             }, 300);
           }
 
-          // we simulate the window Resize so the charts will get updated in realtime.
+         
           var simulateWindowResize = setInterval(function() {
             window.dispatchEvent(new Event('resize'));
           }, 180);
 
-          // we stop the simulation of Window Resize after the animations are completed
+       
           setTimeout(function() {
             clearInterval(simulateWindowResize);
           }, 1000);
@@ -349,7 +328,7 @@
       });
     });
   </script>
-  <!-- Sharrre libray -->
+
   <script src="<?php echo base_url()?>assets/admin_assets/demo/jquery.sharrre.js"></script>
   <script>
     $(document).ready(function() {
@@ -406,7 +385,7 @@
       });
 
 
-      // Facebook Pixel Code Don't Delete
+  
       ! function(f, b, e, v, n, t, s) {
         if (f.fbq) return;
         n = f.fbq = function() {
@@ -437,7 +416,7 @@
     });
   </script>
   <script>
-    // Facebook Pixel Code Don't Delete
+
     ! function(f, b, e, v, n, t, s) {
       if (f.fbq) return;
       n = f.fbq = function() {
@@ -472,7 +451,7 @@
     $(document).ready(function() {
       md.checkFullPageBackgroundImage();
       setTimeout(function() {
-        // after 1000 ms we add the class animated to the login/register card
+     
         $('.card').removeClass('card-hidden');
       }, 700);
     });
@@ -511,7 +490,7 @@
           data: {email_id: email_id},
           success: function ($data) { 
             if($data =='valid'){
-              // alert("Mail ID Already Exsist");
+            alert("Mail ID Already Exsist");
               $("#email_id").val("");
             }      
           },
