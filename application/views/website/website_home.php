@@ -8,20 +8,20 @@
     <meta name="keywords" content="Fashion Hub Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
     
-    <!-- Custom Theme files -->
+   
     <link href="<?php echo base_url()?>assets/website_assets/css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
-    <!-- shop css -->
+
     <link href="<?php echo base_url()?>assets/website_assets/css/shop.css" type="text/css" rel="stylesheet" media="all">
     <link rel="stylesheet" href="<?php echo base_url()?>assets/website_assets/css/owl.carousel.min.css">
-    <!-- Owl-Carousel-CSS -->
+   
     <link href="<?php echo base_url()?>assets/website_assets/css/style.css" type="text/css" rel="stylesheet" media="all">
-    <!-- font-awesome icons -->
+  
     <link href="<?php echo base_url()?>assets/website_assets/css/fontawesome-all.min.css" rel="stylesheet">
-    <!-- //Custom Theme files -->
-    <!-- online-fonts -->
+ 
+
     <link href="//fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
-    <!-- //online-fonts -->
+  
 </head>
 
 <body>
@@ -30,7 +30,7 @@
 
 <meta name="robots" content="noindex">
 <body><link rel="stylesheet" href="<?php echo base_url()?>assets/website_assets/assests/css/font-awesome.min.css">
-<!-- New toolbar-->
+
 <style>
 * {
   box-sizing: border-box;
@@ -108,9 +108,7 @@
   z-index: 99999;
   text-align: center;
 }
-/* ============================================================
-RIGHT SIDEBAR SECTION
-============================================================ */
+
 
 #right-sidebar {
   width: 90px;
@@ -126,12 +124,9 @@ RIGHT SIDEBAR SECTION
   transition: all .5s ease-in-out;
   overflow-y: auto;
 }
-
-
 /* ============================================================
 RIGHT SIDEBAR TOGGLE SECTION
 ============================================================ */
-
 .hide-right-bar-notifications {
   margin-right: -300px !important;
   -webkit-transition: all .3s ease-in-out;
@@ -176,22 +171,20 @@ RIGHT SIDEBAR TOGGLE SECTION
 
 </div>
 
-<!---728x90--->
+
             <?php $this->load->view('include/website_header'); ?>
             
-            <!-- bottom nav -->
+        
             <?php $this->load->view('include/header_webiste'); ?>
-            <!-- //bottom nav -->
+          
         </div>
-        <!-- //header container -->
+      
     </header>
-    <!-- //header -->
-	<!---728x90--->
-    <!-- banner -->
+    
     <div class="banner-text">
         <div class="callbacks_container">
             <ul class="rslides" id="slider3">
-                <!--  -->
+               
                 <?php foreach ($banner_offer as $key => $value) { 
                     $get_cat_name = get_value('tbl_category','cat_id',$value->cat_id,'category_name');
                     $get_cat_name_sep = explode(" ", $get_cat_name);
@@ -205,10 +198,10 @@ RIGHT SIDEBAR TOGGLE SECTION
                     <?php } ?>
 
                     <div class="container">
-                        <h3 class="agile_btxt">
+                        <h1 class="agile_btxt">
                             <span>G</span>reen
                             <span>P</span>roducts
-                        </h3>
+                        </h1>
                         <h4 class="w3_bbot">SHOP EXCLUSIVE ITEMS</h4>
                         <div class="slider-info mt-sm-5">
                             <h4 class="bn_right">
@@ -238,18 +231,17 @@ RIGHT SIDEBAR TOGGLE SECTION
                                     </div>
                                 </div>
                                 <p class="text-uppercase py-2">on special sale</p>
-                                <a class="btn btn-primary mt-3 text-capitalize" href="<?php echo base_url()."product_v/".$value->product_id; ?>" role="button">shop now</a>
+                                <a class="btn btn-primary mt-3 text-capitalize" href="<?php echo base_url()."product_v/".$value->product_id; ?>" role="button">Buy Now</a>
                             </div>
                         </div>
                     </div>
                 </li>
                  <?php } ?>
-                <!--  -->
+          
             </ul>
         </div>
     </div>
-    <!-- //banner -->
-    <!--services-->
+   
     <div class="agileits-services" id="services">
         <div class="no-gutters agileits-services-row row">
             <div class="col-lg-3 col-sm-6 agileits-services-grids p-sm-5 p-3">
@@ -263,16 +255,15 @@ RIGHT SIDEBAR TOGGLE SECTION
 
             <div class="col-lg-3 col-sm-6 agileits-services-grids p-sm-5 p-3">
                 <span class="fas fa-lock p-4"></span>
-                <h4 class="mt-2 mb-3">secure payments</h4>
+                <h4 class="mt-2 mb-3">Secure Payments</h4>
             </div>
             <div class="col-lg-3 col-sm-6 agileits-services-grids p-sm-5 p-3">
                 <span class="fas fa-shipping-fast p-4"></span>
-                <h4 class="mt-2 mb-3">free shipping</h4>
+                <h4 class="mt-2 mb-3">Free Shipping</h4>
             </div>
         </div>
     </div>
-    <!-- //services-->
-    <!-- about -->
+ 
     <div class="row no-gutters pb-5">
         <?php foreach ($category as $key => $value) { ?>
         <div class="col-sm-4 pb-3">
@@ -286,7 +277,7 @@ RIGHT SIDEBAR TOGGLE SECTION
         </div>
         <?php } ?>
     </div>
-    <!-- //about -->
+ 
     <section class="tabs_pro py-md-5 pt-sm-3 pb-5">
         <h5 class="head_agileinfo text-center text-capitalize pb-5">
         <span>N</span>atural <span>P</span>roducts</h5>
@@ -310,7 +301,7 @@ RIGHT SIDEBAR TOGGLE SECTION
                     <?php } ?>
                 </ul>
             </nav>
-            <!-- Content Panel -->
+        
             <div id="clothing-nav-content" class="tab-content py-sm-5">
                  <?php foreach ($category as $key => $value) { 
                     $get_data = get_data('tbl_products','cat_id',$value->cat_id);
@@ -338,21 +329,21 @@ RIGHT SIDEBAR TOGGLE SECTION
                                 }
                                 ?>
                         <div class="item">
-                            <!-- card -->
+                         
                             <div class="card product-men p-3 <?php echo $ofs;?>">
                                 <div class="men-thumb-item">
                                     <img src="<?php echo base_url()."uploads/".$value1->pro_img1;?>" alt="img" class="card-img-top img_own">
                                     <?php if(!empty($ofs)){ ?>
-                                        <span class="px-2 position-absolute">out of stock</span>
+                                        <span class="px-2 position-absolute">No stock</span>
                                     <?php }else{ ?>
                                     <div class="men-cart-pro">
                                         <div class="inner-men-cart-pro">
-                                            <a href="<?php echo base_url()."product_v/".$value1->product_id;?>" class="link-product-add-cart">Quick View</a>
+                                            <a href="<?php echo base_url()."product_v/".$value1->product_id;?>" class="link-product-add-cart">View</a>
                                         </div>
                                     </div>
                                     <?php } ?>
-                                </div>
-                                <!-- card body -->
+                                </div> 
+                                
                                 <div class="card-body  py-3 px-2">
                                     <h5 class="card-title text-capitalize" title="<?php echo $value1->pro_name;?>"><?php echo $value1->pro_name;?></h5>
                                     <div class="card-text d-flex justify-content-between">
@@ -360,7 +351,7 @@ RIGHT SIDEBAR TOGGLE SECTION
                                         <p class="line-through"><?php echo get_value('tbl_login','customer_id',1,'money_type'); ?> <?php echo $value1->pro_amount;?></p>
                                     </div>
                                 </div>
-                                <!-- card footer -->
+                            
                                 <div class="card-footer d-flex justify-content-end">
                                     <?php $cart_a=0;$cart_clr=""; $wishlist_a=0;$wishlist_clr=''; if(!empty($this->session->userdata('customer_id')) && ($this->session->userdata('role'))){ 
                                         $datavaluesthree = array('product_id' => $value1->product_id , 'order_status' => 'PENDING' , 'customer_id' => $this->session->userdata('customer_id'));
@@ -391,14 +382,14 @@ RIGHT SIDEBAR TOGGLE SECTION
                                         </button>
                                 </div>
                             </div>
-                            <!-- //card -->
+                            
                         </div>
                         <?php } ?>
 
                         <div class="item">
                             <div class="product-men p-3 text-center">
                                 <img src="<?php echo base_url()?>assets/website_assets/images/p2.png" class="img-responsive" alt="" />
-                                <a href="<?php echo base_url()."cat_v/".$value1->cat_id;?>" class="btn btn-lg bg-info text-white">view more</a>
+                                <a href="<?php echo base_url()."cat_v/".$value1->cat_id;?>" class="btn btn-lg bg-info text-white">More</a>
                             </div>
                         </div>
                     <?php }else{ ?>
@@ -410,24 +401,17 @@ RIGHT SIDEBAR TOGGLE SECTION
             </div>
         </div>
     </section>
-    <!-- product tabs -->
     
-    <!-- //product tabs -->
     
-    <!-- footer -->
+   
     <?php $this->load->view('include/footer_website'); ?>
     
-    <!-- //footer -->
-	<!---728x90--->
     
     
-    <!-- js -->
+    
+  
     <script src="<?php echo base_url()?>assets/website_assets/js/jquery-2.2.3.min.js"></script>
-    <!-- //js -->
-    <!-- script for show signin and signup modal -->
     
-    <!-- //script for show signin and signup modal -->
-    <!-- smooth dropdown -->
     <script>
         $(document).ready(function () {
             $('ul li.dropdown').hover(function () {
@@ -437,12 +421,12 @@ RIGHT SIDEBAR TOGGLE SECTION
             });
         });
     </script>
-    <!-- Banner Responsiveslides -->
+
     <script src="<?php echo base_url()?>assets/website_assets/js/responsiveslides.min.js"></script>
     <script>
-        // You can also use "$(window).load(function() {"
+     
         $(function () {
-            // Slideshow 4
+            
             $("#slider3").responsiveSlides({
                 auto: true,
                 pager: true,
@@ -459,8 +443,7 @@ RIGHT SIDEBAR TOGGLE SECTION
 
         });
     </script>
-    <!-- // Banner Responsiveslides -->
-    <!-- Product slider Owl-Carousel-JavaScript -->
+  
     <script src="<?php echo base_url()?>assets/website_assets/js/owl.carousel.js"></script>
     <script>
         var owl = $('.owl-carousel');
@@ -487,8 +470,7 @@ RIGHT SIDEBAR TOGGLE SECTION
             }
         });
     </script>
-    <!-- //Product slider Owl-Carousel-JavaScript -->
-    <!-- cart-js -->
+  
     <script src="<?php echo base_url()?>assets/website_assets/js/minicart.js">
     </script>
     <script>
@@ -504,8 +486,7 @@ RIGHT SIDEBAR TOGGLE SECTION
             }
         });
     </script>
-    <!-- //cart-js -->
-    <!-- start-smooth-scrolling -->
+  
     <script src="<?php echo base_url()?>assets/website_assets/js/move-top.js"></script>
     <script src="<?php echo base_url()?>assets/website_assets/js/easing.js"></script>
     <script>
@@ -519,16 +500,10 @@ RIGHT SIDEBAR TOGGLE SECTION
             });
         });
     </script>
-    <!-- //end-smooth-scrolling -->
-    <!-- smooth-scrolling-of-move-up -->
+    
     <script>
         $(document).ready(function () {
-            /*
-            var defaults = {
-                containerID: 'toTop', // fading element id
-                containerHoverID: 'toTopHover', // fading element hover id
-                scrollSpeed: 1200,
-                easingType: 'linear' 
+        
             };
             */
 
@@ -539,10 +514,9 @@ RIGHT SIDEBAR TOGGLE SECTION
         });
     </script>
     <script src="<?php echo base_url()?>assets/website_assets/js/SmoothScroll.min.js"></script>
-    <!-- //smooth-scrolling-of-move-up -->
-    <!-- Bootstrap core JavaScript
+  
 ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+
     <script src="<?php echo base_url()?>assets/website_assets/js/bootstrap.js"></script>
 
 
