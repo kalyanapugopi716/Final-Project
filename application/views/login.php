@@ -1,28 +1,26 @@
-
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8" />
-  <link rel="apple-touch-icon" sizes="76x76" href="<?php echo base_url()?>assets/admin_assets/img/apple-icon.png">
-  <link rel="icon" type="image/png" href="<?php echo base_url()?>assets/admin_assets/img/favicon.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="<?php echo base_url() ?>assets/admin_assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="<?php echo base_url() ?>assets/admin_assets/img/favicon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>Login
   </title>
-  <!--     Fonts and icons     -->
+
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
-  <!-- CSS Files -->
-  <link href="<?php echo base_url()?>assets/admin_assets/css/material-dashboard.min.css?v=2.1.2" rel="stylesheet" />
-  <!-- CSS Just for demo purpose, don't include it in your project -->
-  <link href="<?php echo base_url()?>assets/admin_assets/demo/demo.css" rel="stylesheet" />
+
+  <link href="<?php echo base_url() ?>assets/admin_assets/css/material-dashboard.min.css?v=2.1.2" rel="stylesheet" />
+
+  <link href="<?php echo base_url() ?>assets/admin_assets/demo/demo.css" rel="stylesheet" />
 </head>
 
 <body class="off-canvas-sidebar">
-  <!-- Extra details for Live View on GitHub Pages -->
-  <!-- Google Tag Manager (noscript) -->
+
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NKDMSK6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-  <!-- Navbar -->
+
   <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top text-white">
     <div class="container">
       <div class="navbar-wrapper">
@@ -37,20 +35,20 @@
       <div class="collapse navbar-collapse justify-content-end">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a href="<?php echo base_url()?>website_home" class="nav-link">
+            <a href="<?php echo base_url() ?>website_home" class="nav-link">
               <i class="material-icons">dashboard</i>
               Home
             </a>
           </li>
           <li class="nav-item active">
             <a href="#" class="nav-link">
-              <i class="material-icons">fingerprint</i>
+              <i class="material-icons">login</i>
               Login
             </a>
           </li>
           <li class="nav-item">
-            <a href="<?php echo base_url('registration')?>" class="nav-link">
-              <i class="material-icons">fingerprint</i>
+            <a href="<?php echo base_url('registration') ?>" class="nav-link">
+              <i class="material-icons">login</i>
               Registration
             </a>
           </li>
@@ -58,34 +56,23 @@
       </div>
     </div>
   </nav>
-  <!-- End Navbar -->
+
   <div class="wrapper wrapper-full-page">
-    <div class="page-header login-page header-filter" filter-color="black" style="background-image: url('<?php echo base_url()?>assets/admin_assets/img/login_2.jpg'); background-size: cover; background-position: top center;">
-      <!--   you can change the color of the filter page using: data-color="blue | purple | green | orange | red | rose " -->
+    <div class="page-header login-page header-filter" filter-color="black" style="background-image: url('<?php echo base_url() ?>assets/admin_assets/img/login.jpg'); background-size: cover; background-position: top center;">
+
       <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-6 col-sm-8 ml-auto mr-auto">
-            <form class="form" method="post" action="<?php echo base_url()?>login_validate" id="LoginValidation">
+            <form class="form" method="post" action="<?php echo base_url() ?>login_validate" id="LoginValidation">
               <div class="card card-login card-hidden">
-                <div class="card-header card-header-rose text-center">
-                  <h4 class="card-title">Login</h4>
-                  <div class="social-line">
-                    <a href="#pablo" class="btn btn-just-icon btn-link btn-white">
-                      <i class="fa fa-facebook-square"></i>
-                    </a>
-                    <a href="#pablo" class="btn btn-just-icon btn-link btn-white">
-                      <i class="fa fa-twitter"></i>
-                    </a>
-                    <a href="#pablo" class="btn btn-just-icon btn-link btn-white">
-                      <i class="fa fa-google-plus"></i>
-                    </a>
-                  </div>
+                <div class="card-header card-header-pink text-center">
+
+
                 </div>
                 <div class="card-body ">
-                  <p class="invalid_msg text-center text-danger font-weight-bold"><?php echo $this->session->tempdata('login_error'); $this->session->unset_tempdata('login_error') ?></p>
-                  <!-- <p class="one">admin-click to login</p> -->
-                  <!-- <p class="one">seller-click to login</p> -->
-                  <!-- <p class="one">customer-click to login</p> -->
+                  <p class="invalid_msg text-center text-danger font-weight-bold"><?php echo $this->session->tempdata('login_error');
+                                                                                  $this->session->unset_tempdata('login_error') ?></p>
+
                   <span class="bmd-form-group">
                     <div class="input-group">
                       <div class="input-group-prepend">
@@ -118,37 +105,37 @@
                   </span>
                 </div>
                 <div class="card-footer justify-content-center">
-                  <input type="submit" name="login_validate" value="Lets Go" class="btn btn-rose">
+                  <input type="submit" name="login_validate" value="Lets Go" class="btn btn-orange">
                 </div>
               </div>
             </form>
           </div>
         </div>
       </div>
-      
+
     </div>
   </div>
-  <!--   Core JS Files   -->
-  <script src="<?php echo base_url()?>assets/admin_assets/js/core/jquery.min.js"></script>
-  <script src="<?php echo base_url()?>assets/admin_assets/js/core/popper.min.js"></script>
-  <script src="<?php echo base_url()?>assets/admin_assets/js/core/bootstrap-material-design.min.js"></script>
-  <script src="<?php echo base_url()?>assets/admin_assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
-  <!--  Google Maps Plugin    -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2Yno10-YTnLjjn_Vtk0V8cdcY5lC4plU"></script>
-  <!-- Place this tag in your head or just before your close body tag. -->
-  <script async defer src="https://buttons.github.io/buttons.js"></script>
-  <!-- Chartist JS -->
-  <script src="<?php echo base_url()?>assets/admin_assets/js/plugins/chartist.min.js"></script>
-  <!--  Notifications Plugin    -->
-  <script src="<?php echo base_url()?>assets/admin_assets/js/plugins/bootstrap-notify.js"></script>
-  <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
-  <script src="<?php echo base_url()?>assets/admin_assets/js/material-dashboard.min.js?v=2.1.2" type="text/javascript"></script>
-  <!-- Material Dashboard DEMO methods, don't include it in your project! -->
-  <script src="<?php echo base_url()?>assets/admin_assets/demo/demo.js"></script>
 
-  <!--  -->
-  <script src="<?php echo base_url()?>assets/admin_assets/js/plugins/jquery.validate.min.js"></script>
-  <!--  -->
+  <script src="<?php echo base_url() ?>assets/admin_assets/js/core/jquery.min.js"></script>
+  <script src="<?php echo base_url() ?>assets/admin_assets/js/core/popper.min.js"></script>
+  <script src="<?php echo base_url() ?>assets/admin_assets/js/core/bootstrap-material-design.min.js"></script>
+  <script src="<?php echo base_url() ?>assets/admin_assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2Yno10-YTnLjjn_Vtk0V8cdcY5lC4plU"></script>
+
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+  <script src="<?php echo base_url() ?>assets/admin_assets/js/plugins/chartist.min.js"></script>
+
+  <script src="<?php echo base_url() ?>assets/admin_assets/js/plugins/bootstrap-notify.js"></script>
+
+  <script src="<?php echo base_url() ?>assets/admin_assets/js/material-dashboard.min.js?v=2.1.2" type="text/javascript"></script>
+
+  <script src="<?php echo base_url() ?>assets/admin_assets/demo/demo.js"></script>
+
+
+  <script src="<?php echo base_url() ?>assets/admin_assets/js/plugins/jquery.validate.min.js"></script>
+
 
   <script>
     $(document).ready(function() {
@@ -321,8 +308,7 @@
       });
     });
   </script>
-  <!-- Sharrre libray -->
-  <script src="<?php echo base_url()?>assets/admin_assets/demo/jquery.sharrre.js"></script>
+  <script src="<?php echo base_url() ?>assets/admin_assets/demo/jquery.sharrre.js"></script>
   <script>
     $(document).ready(function() {
 
@@ -450,71 +436,69 @@
     });
   </script>
 </body>
+
 </html>
 <script>
-    function setFormValidation(id) {
-      $(id).validate({
-        highlight: function(element) {
-          $(element).closest('.form-group').removeClass('has-success').addClass('has-danger');
-          $(element).closest('.form-check').removeClass('has-success').addClass('has-danger');
-        },
-        success: function(element) {
-          $(element).closest('.form-group').removeClass('has-danger').addClass('has-success');
-          $(element).closest('.form-check').removeClass('has-danger').addClass('has-success');
-        },
-        errorPlacement: function(error, element) {
-          $(element).closest('.form-group').append(error);
-        },
-      });
-    }
-
-    $(document).ready(function() {
-      setFormValidation('#LoginValidation');
-      $('.one').on('click hover',function(){
-        console.log($(this).text());
-        var result = $(this).text().split('-');
-        if(result[0] == 'admin')
-        {
-          $("input[name='email_id']").val('admin@gmail.com');
-          $("input[name='user_name']").val('admin');
-        }
-        if(result[0] == 'seller')
-        {
-          $("input[name='email_id']").val('seller@gmail.com');
-          $("input[name='user_name']").val('seller');
-        }
-        if(result[0] == 'customer')
-        {
-          $("input[name='email_id']").val('customer@gmail.com');
-          $("input[name='user_name']").val('customer');
-        }
-      });
+  function setFormValidation(id) {
+    $(id).validate({
+      highlight: function(element) {
+        $(element).closest('.form-group').removeClass('has-success').addClass('has-danger');
+        $(element).closest('.form-check').removeClass('has-success').addClass('has-danger');
+      },
+      success: function(element) {
+        $(element).closest('.form-group').removeClass('has-danger').addClass('has-success');
+        $(element).closest('.form-check').removeClass('has-danger').addClass('has-success');
+      },
+      errorPlacement: function(error, element) {
+        $(element).closest('.form-group').append(error);
+      },
     });
-  </script>
-  <script type="text/javascript">
-        document.onkeydown = function(e) {
-  if(event.keyCode == 123) {
-     return false;
   }
-  if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
-     return false;
-  }
-  if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
-     return false;
-  }
-  if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
-     return false;
-  }
-  if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
-     return false;
-  }
-}
-      </script>
 
-      <script type="text/javascript" language="javascript">
-        $(function() {
-            $(this).bind("contextmenu", function(e) {
-                e.preventDefault();
-            });
-        }); 
+  $(document).ready(function() {
+    setFormValidation('#LoginValidation');
+    $('.one').on('click hover', function() {
+      console.log($(this).text());
+      var result = $(this).text().split('-');
+      if (result[0] == 'admin') {
+        $("input[name='email_id']").val('admin@gmail.com');
+        $("input[name='user_name']").val('admin');
+      }
+      if (result[0] == 'seller') {
+        $("input[name='email_id']").val('seller@gmail.com');
+        $("input[name='user_name']").val('seller');
+      }
+      if (result[0] == 'customer') {
+        $("input[name='email_id']").val('customer@gmail.com');
+        $("input[name='user_name']").val('customer');
+      }
+    });
+  });
+</script>
+<script type="text/javascript">
+  document.onkeydown = function(e) {
+    if (event.keyCode == 123) {
+      return false;
+    }
+    if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+      return false;
+    }
+    if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+      return false;
+    }
+    if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+      return false;
+    }
+    if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+      return false;
+    }
+  }
+</script>
+
+<script type="text/javascript" language="javascript">
+  $(function() {
+    $(this).bind("contextmenu", function(e) {
+      e.preventDefault();
+    });
+  });
 </script>
