@@ -2,26 +2,24 @@
 <html lang="zxx">
 
 <head>
-    <title>Online Shopping Website</title>
+    <title>Green products Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8" />
     <meta name="keywords" content="Fashion Hub Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
     
 
-    <!-- Custom Theme files -->
     <link href="<?php echo base_url()?>assets/website_assets/css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
-    <!-- shop css -->
+   
     <link href="<?php echo base_url()?>assets/website_assets/css/shop.css" type="text/css" rel="stylesheet" media="all">
     <link href="<?php echo base_url()?>assets/website_assets/css/flexslider.css" type="text/css" rel="stylesheet" media="all">
     <link href="<?php echo base_url()?>assets/website_assets/css/style.css" type="text/css" rel="stylesheet" media="all">
-    <!-- font-awesome icons -->
+ 
     <link href="<?php echo base_url()?>assets/website_assets/css/fontawesome-all.min.css" rel="stylesheet">
-    <!-- //Custom Theme files -->
-    <!-- online-fonts -->
+  
     <link href="//fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
-    <!-- //online-fonts -->
+
 </head>
 
 <body>
@@ -31,7 +29,7 @@
 
 <meta name="robots" content="noindex">
 <body><link rel="stylesheet" href="<?php echo base_url()?>assets/website_assets/assests/css/font-awesome.min.css">
-<!-- New toolbar-->
+
 <style>
 * {
   box-sizing: border-box;
@@ -174,25 +172,23 @@ RIGHT SIDEBAR TOGGLE SECTION
 </style>
 </div>
 
-<!---728x90--->
+
 
  	 <?php $this->load->view('include/website_header'); ?>
-            <!-- bottom nav -->
+        
             <?php $this->load->view('include/header_webiste'); ?>
-            <!-- //bottom nav -->
+     
         </div>
-        <!-- //header container -->
+     
     </header>
     <!-- //header -->
-	<!---728x90--->
-	<!-- inner banner -->
+
 	<div class="ibanner_w3 pt-sm-5 pt-3">
         <h4 class="head_agileinfo text-center text-capitalize text-center pt-5">
             <span>Y</span>our
             <span>c</span>art</h4>
     </div>
-	<!-- //inner banner -->
-    <!-- breadcrumbs -->
+
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item">
@@ -201,9 +197,7 @@ RIGHT SIDEBAR TOGGLE SECTION
             <li class="breadcrumb-item active" aria-current="page">Cart</li>
         </ol>
     </nav>
-    <!-- //breadcrumbs -->
-    <!-- Single -->
-
+  
     <link rel="apple-touch-icon" sizes="76x76" href="<?php echo base_url()?>assets/admin_assets/img/apple-icon.png">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
@@ -356,27 +350,20 @@ RIGHT SIDEBAR TOGGLE SECTION
     </div>
 
     
-    <!-- /new_arrivals -->
-    
-    <!--// Single -->
+  
     
     
     
-    <!--  -->
+
     <?php $this->load->view('include/footer_website'); ?>
     
     <!-- //footer -->
-	<!---728x90--->
-    <!-- sign up Modal -->
+
     
-    <!-- //signup modal -->
-    <!-- signin Modal -->
-    
-    <!-- signin Modal -->
-    <!-- js -->
+  
+  
     <script src="<?php echo base_url()?>assets/website_assets/js/jquery-2.2.3.min.js"></script>
-    <!-- //js -->
-    <!-- smooth dropdown -->
+    
     <script>
         $(document).ready(function () {
             $('ul li.dropdown').hover(function () {
@@ -386,8 +373,7 @@ RIGHT SIDEBAR TOGGLE SECTION
             });
         });
     </script>
-    <!-- //smooth dropdown -->
-    <!-- script for password match -->
+  
     <script>
         window.onload = function () {
             document.getElementById("password1").onchange = validatePassword;
@@ -404,9 +390,9 @@ RIGHT SIDEBAR TOGGLE SECTION
             //empty string means no validation error
         }
     </script>
-    <!-- script for password match -->
+   
 
-    <!-- FlexSlider -->
+   
     <script src="<?php echo base_url()?>assets/website_assets/js/jquery.flexslider.js"></script>
     <script>
         // Can also be used with $(document).ready()
@@ -417,8 +403,7 @@ RIGHT SIDEBAR TOGGLE SECTION
             });
         });
     </script>
-    <!-- //FlexSlider-->
-    <!-- cart-js -->
+  
     <script src="<?php echo base_url()?>assets/website_assets/js/minicart.js"></script>
     <script>
         hub.render();
@@ -433,12 +418,11 @@ RIGHT SIDEBAR TOGGLE SECTION
             }
         });
     </script>
-    <!-- //cart-js -->
-    <!-- zoom -->
+   
     <script src="<?php echo base_url()?>assets/website_assets/js/imagezoom.js"></script>
-    <!-- zoom-->
 
-    <!-- start-smooth-scrolling -->
+
+
     <script src="<?php echo base_url()?>assets/website_assets/js/move-top.js"></script>
     <script src="<?php echo base_url()?>assets/website_assets/js/easing.js"></script>
     <script>
@@ -452,18 +436,10 @@ RIGHT SIDEBAR TOGGLE SECTION
             });
         });
     </script>
-    <!-- //end-smooth-scrolling -->
-    <!-- smooth-scrolling-of-move-up -->
+ 
     <script>
         $(document).ready(function () {
-            /*
-            var defaults = {
-                containerID: 'toTop', // fading element id
-                containerHoverID: 'toTopHover', // fading element hover id
-                scrollSpeed: 1200,
-                easingType: 'linear' 
-            };
-            */
+            
 
             $().UItoTop({
                 easingType: 'easeOutQuart'
@@ -472,10 +448,7 @@ RIGHT SIDEBAR TOGGLE SECTION
         });
     </script>
     <script src="<?php echo base_url()?>assets/website_assets/js/SmoothScroll.min.js"></script>
-    <!-- //smooth-scrolling-of-move-up -->
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+
     <script src="<?php echo base_url()?>assets/website_assets/js/bootstrap.js"></script>
 
 
