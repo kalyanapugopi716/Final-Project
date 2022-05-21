@@ -1,5 +1,5 @@
 		
-	Ecommerce webiste Green Products using php 
+	Ecommerce webiste Green Products using HTML, CSS, JS, PHP
 
 		*start xampp server 
 		*db name - online_greenproducts
@@ -22,3 +22,8 @@
 		username: customer
 		email_id : customer@gmail.com
 		password : user@1234
+		
+		customer login - 
+		username: Gopi
+		email_id : kalyanapugopi716@gmail.com
+		password : Gopi@4674
